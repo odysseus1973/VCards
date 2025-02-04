@@ -42,7 +42,7 @@ public sealed partial class VCard
 
         void AppendEntity(Entity entity)
         {
-            const string INDENT = "    ";
+            const string INDENT = "";
 
             Prop key = entity.Key;
             VCardProperty vcdProp = entity.Value;
